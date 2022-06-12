@@ -1,0 +1,362 @@
+[75.996875763] 2022-04-23 17:22:44,185 - INFO - launcher: Starting sanity checks
+[76.996803284] 2022-04-23 17:22:44,186 - INFO - launcher: Checking for Python 3.5+
+[76.996803284] 2022-04-23 17:22:44,186 - INFO - launcher: Checking console encoding
+[76.996803284] 2022-04-23 17:22:44,186 - INFO - launcher: Setting console encoding to UTF-8
+[77.997922897] 2022-04-23 17:22:44,187 - INFO - launcher: Ensuring we're in the right environment
+[81.996440887] 2022-04-23 17:22:44,191 - INFO - launcher: Adding local bins/ folder to path
+[1165.944814682] 2022-04-23 17:22:45,275 - INFO - launcher: Required checks passed.
+[1166.943311691] 2022-04-23 17:22:45,276 - INFO - launcher: Optional checks passed.
+[1166.943311691] 2022-04-23 17:22:45,276 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[4.7547724246978760] 2022-04-23 17:22:48,864 - WARNING - musicbot.config | In config.py::MainThread(7780), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[4.7567706108093262] 2022-04-23 17:22:48,866 - INFO - musicbot.config | In config.py::MainThread(7780), line 132 in run_checks: Using i18n: config/i18n/en.json
+[4.7707703113555908] 2022-04-23 17:22:48,880 - DEBUG - musicbot.bot | In bot.py::MainThread(7780), line 225 in _setup_logging: Set logging level to INFO
+[4.7867701053619385] 2022-04-23 17:22:48,896 - DEBUG - musicbot.json | In json.py::MainThread(7780), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[4.8667664527893066] 2022-04-23 17:22:48,976 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 90 in __init__: Starting MusicBot release-260819-5-gc87dc05
+[4.8687677383422852] 2022-04-23 17:22:48,978 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 96 in __init__: Loaded autoplaylist with 2 entries
+[7.7296848297119141] 2022-04-23 17:22:51,839 - DEBUG - musicbot.bot | In bot.py::MainThread(7780), line 951 in on_ready: Connection established, ready to go.
+[7.7306296825408936] 2022-04-23 17:22:51,840 - DEBUG - musicbot.bot | In bot.py::MainThread(7780), line 342 in _cache_app_info: Caching app info
+[7.9076209068298340] 2022-04-23 17:22:52,017 - DEBUG - musicbot.bot | In bot.py::MainThread(7780), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[7.9116184711456299] 2022-04-23 17:22:52,021 - DEBUG - musicbot.bot | In bot.py::MainThread(7780), line 789 in _scheck_server_permissions: Checking server permissions
+[7.9116184711456299] 2022-04-23 17:22:52,021 - DEBUG - musicbot.bot | In bot.py::MainThread(7780), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[7.9116184711456299] 2022-04-23 17:22:52,021 - DEBUG - musicbot.bot | In bot.py::MainThread(7780), line 797 in _scheck_configs: Validating config
+[7.9116184711456299] 2022-04-23 17:22:52,021 - DEBUG - musicbot.config | In config.py::MainThread(7780), line 236 in async_validate: Validating options...
+[7.9116184711456299] 2022-04-23 17:22:52,021 - DEBUG - musicbot.bot | In bot.py::MainThread(7780), line 800 in _scheck_configs: Validating permissions config
+[7.9116184711456299] 2022-04-23 17:22:52,021 - DEBUG - musicbot.permissions | In permissions.py::MainThread(7780), line 94 in async_validate: Validating permissions...
+[7.9116184711456299] 2022-04-23 17:22:52,021 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 968 in on_ready: Connected: 807774882121121864/Musik#6657
+[7.9126224517822266] 2022-04-23 17:22:52,022 - WARNING - musicbot.bot | In bot.py::MainThread(7780), line 996 in on_ready: Owner could not be found on any guild (id: 234763383507910657)
+
+[7.9136190414428711] 2022-04-23 17:22:52,023 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 998 in on_ready: Guild List:
+[7.9146192073822021] 2022-04-23 17:22:52,024 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 1001 in on_ready:  - Ich weiß nicht wie ich diesen Server nennen soll
+[7.9156489372253418] 2022-04-23 17:22:52,025 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 1026 in on_ready: Bound to text channels:
+[7.9166231155395508] 2022-04-23 17:22:52,026 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 1027 in <listcomp>:  - Ich weiß nicht wie ich diesen Server nennen soll/musik
+[7.9176356792449951] 2022-04-23 17:22:52,027 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 1065 in on_ready: Not autojoining any voice channels
+[1662.6217236518859863] 2022-04-23 17:50:26,731 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[12471.5860669612884521] 2022-04-23 20:50:35,695 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[13694.2519328594207764] 2022-04-23 21:10:58,361 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[16466.8283383846282959] 2022-04-23 21:57:10,938 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[22945.2838935852050781] 2022-04-23 23:45:09,393 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[35594.8791227340698242] 2022-04-24 03:15:58,988 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[46145.3798284530639648] 2022-04-24 06:11:49,489 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[56609.3972249031066895] 2022-04-24 09:06:13,507 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[58090.9872853755950928] 2022-04-24 09:30:55,097 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[70993.7477438449859619] 2022-04-24 13:05:57,857 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[76209.6958487033843994] 2022-04-24 14:32:53,805 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[84587.1516981124877930] 2022-04-24 16:52:31,261 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[87875.9227006435394287] 2022-04-24 17:47:20,032 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[91957.3691840171813965] 2022-04-24 18:55:21,478 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[102306.2110440731048584] 2022-04-24 21:47:50,320 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[104627.7944886684417725] 2022-04-24 22:26:31,904 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[108772.4047565460205078] 2022-04-24 23:35:36,514 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[114751.3860640525817871] 2022-04-25 01:15:15,495 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[120596.2589569091796875] 2022-04-25 02:52:40,368 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[134662.6218891143798828] 2022-04-25 06:47:06,731 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[143269.3213307857513428] 2022-04-25 09:10:33,431 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[146597.9780998229980469] 2022-04-25 10:06:02,087 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[155519.1696515083312988] 2022-04-25 12:34:43,279 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[156567.7190122604370117] 2022-04-25 12:52:11,828 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[162004.7066931724548340] 2022-04-25 14:22:48,816 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[174182.9887368679046631] 2022-04-25 17:45:47,098 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[177283.5424923896789551] 2022-04-25 18:37:27,652 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[183197.4269771575927734] 2022-04-25 20:16:01,536 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[184348.7634158134460449] 2022-04-25 20:35:12,873 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[189912.2690887451171875] 2022-04-25 22:07:56,378 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[198563.2736787796020508] 2022-04-26 00:32:07,383 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[201566.9739713668823242] 2022-04-26 01:22:11,083 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[204816.4763641357421875] 2022-04-26 02:16:20,586 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[215968.1960113048553467] 2022-04-26 05:22:12,305 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[220125.7879920005798340] 2022-04-26 06:31:29,897 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[221941.7283263206481934] 2022-04-26 07:01:45,838 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[227889.8452029228210449] 2022-04-26 08:40:53,955 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[241413.8749120235443115] 2022-04-26 12:26:17,984 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[253449.5194559097290039] 2022-04-26 15:46:53,629 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[255847.6382360458374023] 2022-04-26 16:26:51,748 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[264253.1009600162506104] 2022-04-26 18:46:57,210 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[265282.3879086971282959] 2022-04-26 19:04:06,497 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[278365.0427243709564209] 2022-04-26 22:42:09,152 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[284159.3140273094177246] 2022-04-27 00:18:43,423 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[290264.8999812602996826] 2022-04-27 02:00:29,009 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[294233.2370052337646484] 2022-04-27 03:06:37,346 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[305160.1302692890167236] 2022-04-27 06:08:44,240 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[319181.2801351547241211] 2022-04-27 10:02:25,389 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[330867.7241477966308594] 2022-04-27 13:17:11,833 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[340522.2345564365386963] 2022-04-27 15:58:06,344 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[341920.4811925888061523] 2022-04-27 16:21:24,590 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[352020.8356697559356689] 2022-04-27 19:09:44,945 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[365519.1315872669219971] 2022-04-27 22:54:43,241 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[370517.0801379680633545] 2022-04-28 00:18:01,189 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[372287.5193009376525879] 2022-04-28 00:47:31,629 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[376084.3522455692291260] 2022-04-28 01:50:48,462 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[389341.6544809341430664] 2022-04-28 05:31:45,764 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[394141.3474252223968506] 2022-04-28 06:51:45,457 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[397222.5779709815979004] 2022-04-28 07:43:06,687 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[410758.8886528015136719] 2022-04-28 11:28:42,998 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[419718.7994539737701416] 2022-04-28 13:58:02,909 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[428485.4115350246429443] 2022-04-28 16:24:09,521 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[428905.0657484531402588] 2022-04-28 16:31:09,175 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[434385.0188682079315186] 2022-04-28 18:02:29,128 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[441975.7364053726196289] 2022-04-28 20:08:59,846 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[456051.6710693836212158] 2022-04-29 00:03:35,780 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[457001.1083400249481201] 2022-04-29 00:19:25,218 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[464619.6021139621734619] 2022-04-29 02:26:23,711 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[469737.3448879718780518] 2022-04-29 03:51:41,454 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[477552.8789610862731934] 2022-04-29 06:01:56,988 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[489897.9106268882751465] 2022-04-29 09:27:42,020 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[490869.3725256919860840] 2022-04-29 09:43:53,482 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[493582.7353782653808594] 2022-04-29 10:29:06,845 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[501831.5077862739562988] 2022-04-29 12:46:35,617 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[503688.9010584354400635] 2022-04-29 13:17:33,010 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[505697.1943955421447754] 2022-04-29 13:51:01,304 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[508335.3796148300170898] 2022-04-29 14:34:59,489 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[509710.5136728286743164] 2022-04-29 14:57:54,623 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[511541.0854732990264893] 2022-04-29 15:28:25,195 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[512563.7750561237335205] 2022-04-29 15:45:27,884 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[514887.5838446617126465] 2022-04-29 16:24:11,693 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[517341.7736711502075195] 2022-04-29 17:05:05,883 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[520869.5576977729797363] 2022-04-29 18:03:53,667 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[525726.4294049739837646] 2022-04-29 19:24:50,539 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[526834.5159080028533936] 2022-04-29 19:43:18,625 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[530963.8747258186340332] 2022-04-29 20:52:07,984 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[539074.0817949771881104] 2022-04-29 23:07:18,191 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[549292.9709699153900146] 2022-04-30 01:57:37,080 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[552459.6668009757995605] 2022-04-30 02:50:23,776 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[560327.4431645870208740] 2022-04-30 05:01:31,552 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[573188.3193585872650146] 2022-04-30 08:35:52,429 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[575343.3981311321258545] 2022-04-30 09:11:47,507 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[588778.4813427925109863] 2022-04-30 12:55:42,591 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[600460.9668092727661133] 2022-04-30 16:10:25,076 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[608133.0978744029998779] 2022-04-30 18:18:17,207 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[612483.4543766975402832] 2022-04-30 19:30:47,564 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[625850.6619567871093750] 2022-04-30 23:13:34,771 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[634405.1140608787536621] 2022-05-01 01:36:09,223 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[635513.1138985157012939] 2022-05-01 01:54:37,223 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[642558.7654511928558350] 2022-05-01 03:52:02,875 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[648955.0766558647155762] 2022-05-01 05:38:39,186 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[656062.1771543025970459] 2022-05-01 07:37:06,286 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[667483.7298293113708496] 2022-05-01 10:47:27,839 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[678009.5616412162780762] 2022-05-01 13:42:53,671 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[680971.9591672420501709] 2022-05-01 14:32:16,068 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[694578.6655428409576416] 2022-05-01 18:19:02,775 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[700290.7231595516204834] 2022-05-01 19:54:14,832 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[705004.6885569095611572] 2022-05-01 21:12:48,798 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
+[715007.3422303199768066] 2022-05-01 23:59:31,452 - INFO - musicbot.bot | In bot.py::MainThread(7780), line 942 in on_resumed: 
+Reconnected to discord.
+
